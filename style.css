@@ -11,6 +11,16 @@ body {
   justify-content: space-between;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+section {
+  flex-direction: row;
+}
+
 h1 {
   text-align: center;
 }
